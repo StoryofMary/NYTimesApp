@@ -8,7 +8,7 @@ $(document).ready(function() {
     
 
   var APIKey = "c3a12d822e45474ba56cad8bf2d2b534";
-  var URL ="http://api.nytimes.com/svc/search/v2/articlesearch.json?q="+searchTerm+"&page=2&sort=oldest&api-key="+APIKey;
+  var URL ="https://api.nytimes.com/svc/search/v2/articlesearch.json?q="+searchTerm+"&page=2&sort=oldest&api-key="+APIKey;
     
   console.log(URL);
   //alert(URL);
